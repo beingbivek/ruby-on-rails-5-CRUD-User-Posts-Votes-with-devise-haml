@@ -25,7 +25,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
-gem 'haml', '~> 5.0', '>= 5.0.4'
+gem "haml-rails", "~> 2.0"
 gem 'simple_form', '~> 4.1'
 gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'paperclip', '~> 6.1'
@@ -48,6 +48,8 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
+  gem "hpricot"
+  gem "ruby_parser"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
