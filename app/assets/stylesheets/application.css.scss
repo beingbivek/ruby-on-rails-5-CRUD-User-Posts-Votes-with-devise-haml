@@ -64,8 +64,10 @@ header {
 	}
 }
 
-/*@import 'home.css.scss';*/
+@import 'home.css.scss';
+@import 'posts.css.scss';
 
+/*
 #intro {
 	margin: 2.75rem 0 1.75rem 0;
 	text-align: center;
@@ -128,7 +130,6 @@ header {
 	}
 }
 
-/*@import 'posts.css.scss';*/
 
 #post_show {
 	padding-top: 2rem;
@@ -271,4 +272,4 @@ header {
 			border-radius: 0.3rem;
 		}
 	}
-}
+}*/
