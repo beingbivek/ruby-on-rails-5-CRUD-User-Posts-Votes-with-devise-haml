@@ -30,6 +30,9 @@
 					%span
 						%i.fa.fa-thumbs-o-up
 						= post.get_likes.size
+					%span
+						%i.fa.fa-thumbs-o-down
+						= post.get_dislikes.size
 
 		/ %p
 		/ 	= post.comments.count
@@ -39,4 +42,4 @@
 		/ 	=post.get_dislikes.size
 		/ 	Dislikes
 
-= link_to "Add New Inspiration", new_post_path
+/ = link_to "Add New Inspiration", new_post_path
